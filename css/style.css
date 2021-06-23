@@ -54,6 +54,9 @@
     height: 100%;
     border: none;
     padding-left: 20px;
+    padding-right: 85px;
+    color: #ffffff;
+    font-size: 20px;
     background-color: #fcc302;
 }
 
@@ -69,7 +72,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
 
