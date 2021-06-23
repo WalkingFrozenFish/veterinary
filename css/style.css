@@ -1,0 +1,257 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1160px;
+    margin: auto;
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 33px 0 32px;
+    background-color: #daac00;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .navbar-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: medium;
+}
+
+.search-block{
+    width: 274px;
+    height: 51px; 
+    position: relative;
+    box-shadow: 4px 4px 14px rgba(59, 59, 59, 0.329);  
+}
+
+.search-block input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 20px;
+    background-color: #fcc302;
+}
+
+.search-block input::placeholder {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.search-button {
+    background-color: #00bec9;
+    height: 51px;   
+    width: 71px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none
+}
+
+
+/* Main block */
+
+.main {
+    padding: 88px 0 87px;
+    background-color: #fcc302;
+    color: #ffffff;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-size: 66px;
+    margin-bottom: 51px;
+}
+
+.main-description {
+    font-size: 30px;
+    margin-bottom: 51px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button-primary {
+    padding: 23px 29px;
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.button-secondary {
+    padding: 23px 29px;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.image-block {
+    height: 604px;
+}
+
+.image-block img {
+    transform: scale(-1, 1);
+    height: 100%;
+    -webkit-filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.329));
+    filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.582));
+}
+
+
+/* Video block first */
+
+.video {
+    color: #313243;
+    padding: 140px 0 170px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-text-second {
+    margin-left: 65px;
+}
+
+.video-title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.video-title-second {
+    text-align: right;
+}
+
+.video-description {
+    margin-bottom: 51px;
+    font-size: 30px;
+}
+
+.video-description-second {
+    text-align: right;
+}
+
+.video-button {
+    padding: 23px 29px;
+    background-color: #fcc302;
+    border: 3px solid #fcc302;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.video-button-second {
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+}
+
+.video-block-first {
+    width: 506px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-block-first::before {
+    content: "";
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    position: absolute;
+    bottom: -33px;
+    left: -39px;
+    z-index: -10;
+}
+
+.video-block-first::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(252, 194, 2, 0.349);
+}
+
+.video-block-second {
+    width: 506px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-block-second::before {
+    content: "";
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    position: absolute;
+    bottom: -33px;
+    right: -39px;
+    z-index: -10;
+}
+
+.video-block-second::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(252, 194, 2, 0.349);
+}
+
+.play {
+    position: absolute;
+    z-index: 10;
+    transform-origin: 50%;
+    cursor: pointer;
+}
