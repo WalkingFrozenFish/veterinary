@@ -308,5 +308,32 @@
 
 .card-text {
     font-size: 25px;
-    /* max-width: 337px; */
+}
+
+.card-price {
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.old-price, .new-price {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.button-buy {
+    padding: 17px 47px;
+    background-color: #00bec9;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
 }
