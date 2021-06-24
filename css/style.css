@@ -339,6 +339,71 @@
 }
 
 
+/* Block team */
+
+.team {
+    color: #313243;
+    padding: 148px 0 140px;
+}
+
+.team-container {
+
+}
+
+.team-title {
+    font-weight: bold;
+    font-size: 75px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.team-description {
+    font-size: 33px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.team-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+
+.team-image {
+    width: 361px;
+    margin-bottom: 42px;
+}
+
+.team-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-status {
+    font-size: 25px;
+    margin-bottom: 29px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 183px;
+}
+
+.social-icon {
+
+}
+
+
 /* Stats block */
 
 .stats {
