@@ -154,28 +154,28 @@
     align-items: center;
 } */
 
-.video-text-second {
+/* .video-text-second {
     margin-left: 65px;
-}
+} */
 
 /* .video-title {
     margin-bottom: 50px;
     font-size: 50px;
     font-weight: 600;
 } */
-
+/* 
 .video-title-second {
     text-align: right;
-}
+} */
 
 /* .video-description {
     margin-bottom: 51px;
     font-size: 30px;
 } */
 
-.video-description-second {
+/* .video-description-second {
     text-align: right;
-}
+} */
 
 /* .video-button {
     padding: 23px 29px;
@@ -189,11 +189,11 @@
     cursor: pointer;
 } */
 
-.video-button-second {
+/* .video-button-second {
     margin-right: 0;
     margin-left: auto;
     display: block;
-}
+} */
 
 /* .video-block-first {
     width: 506px;
@@ -224,7 +224,7 @@
     background-color: rgba(252, 194, 2, 0.349);
 } */
 
-.video-block-second {
+/* .video-block-second {
     width: 506px;
     position: relative;
     display: flex;
@@ -251,7 +251,7 @@
     left: 0;
     top: 0;
     background-color: rgba(252, 194, 2, 0.349);
-}
+} */
 /* 
 .play {
     position: absolute;
@@ -263,7 +263,7 @@
 
 /* Card block */
 
-.card {
+/* .card {
     padding: 110px 0 100px;
     background-color: #fcc302;
     color: #ffffff;
@@ -336,12 +336,12 @@
     font-size: 25px;
     border: none;
     cursor: pointer;
-}
+} */
 
 
 /* Block team */
 
-.team {
+/* .team {
     color: #313243;
     padding: 148px 0 140px;
 }
@@ -401,16 +401,16 @@
 
 .social-icon {
 
-}
+} */
 
 
 /* Stats block */
 
-.stats {
-    background-color: #fcc302;
+/* .stats { */
+    /* background-color: #fcc302; */
     /* z-index: 10; */
-}
-
+/* } */
+/* 
 .stats-bg {
     padding: 165px 0 160px 0;
     width: 1310px;
@@ -459,12 +459,12 @@
 .stats-description {
     font-weight: bold;
     font-size: 37px;
-}
+} */
 
 
 /* Post block */
 
-.post {
+/* .post {
     padding: 140px 0;
     color: #313243;
 }
@@ -518,7 +518,7 @@
 .post-read {
     font-size: 20px;
     font-weight: 500;
-}
+} */
 
 
 /* Footer */
