@@ -1,0 +1,53 @@
+.header
+    padding-top: 33px
+    padding-bottom: 32px
+    background-color: $secondaryOrange
+    .header-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .logo
+            width: 200px
+            .logo-image
+                width: 100%
+        .navbar
+            .navbar-list
+                padding: 0
+                display: flex
+                align-items: center
+                list-style: none
+                .list-item
+                    margin-left: 20px
+                    margin-right: 20px
+                    .item-link
+                        color: $secondaryColorText
+                        text-decoration: none
+                        font-weight: medium
+                        font-size: 30px
+        .search-block
+            width: 274px
+            height: 51px
+            position: relative
+            box-shadow: 4px 4px 14px rgba(59, 59, 59, 0.329);  
+            .search-field
+                width: 274px 
+                height: 100%
+                border: none
+                padding-left: 20px
+                padding-right: 85px
+                color: $secondaryColorText
+                font-size: 20px
+                background-color: $mainOrange
+                &::placeholder
+                    color: $secondaryColorText
+                    font-size: 20px
+            .search-button
+                background-color: $mainColorButton
+                height: 51px   
+                width: 71px
+                position: absolute
+                right: 0
+                top: 0
+                border: none
+                cursor: pointer
+                // .search-icon

@@ -14,31 +14,31 @@
 <body>
     <header class="header">
         <div class="container header-container">
-            <a href="logo">
-                <img src="img/logo.png" alt="Logo: Veterinary clinic">
+            <a href="logo" class="logo">
+                <img src="img/logo.png" alt="Logo: Veterinary clinic" class="logo-image">
             </a>
             
             <nav class="navbar">
-                <ul class="navbar-links">
+                <ul class="navbar-list">
                     <li class="list-item">
-                        <a href="#">Home</a>
+                        <a href="#" class="item-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#">About</a>
+                        <a href="#" class="item-link">About</a>
                     </li>
                     <li class="list-item">
-                        <a href="#">Service</a>
+                        <a href="#" class="item-link">Service</a>
                     </li>
                     <li class="list-item">
-                        <a href="#">Contact</a>
+                        <a href="#" class="item-link">Contact</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="search-block">
-                <input type="text" name="search" id="search-field" placeholder="Search..">
+                <input type="text" name="search" id="search-input" class="search-field" placeholder="Search..">
                 <button class="search-button">
-                    <img src="img/search.svg" alt="Search: Search icon">
+                    <img src="img/search.svg" alt="Search: Search icon" class="search-icon">
                 </button>
             </div>
         </div>
@@ -48,43 +48,45 @@
 
     <main class="main">
         <div class="container main-container">
-            <div class="main-text">
+            <div class="main-text-block">
                 <h1 class="main-title">First I wanted to be <br> a veterinarian</h1>
                 <p class="main-description">Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
-                <div class="buttons">
-                    <button class="button-primary">Contact Us</button>
-                    <button class="button-secondary">Our Service</button>
+                <div class="main-buttons">
+                    <button class="main-button-primary">Contact Us</button>
+                    <button class="main-button-secondary">Our Service</button>
                 </div>
             </div>
-            <div class="image-block">
-                <img src="img/dog.png" alt="Main image: Dog">
+            <div class="main-image-block">
+                <img src="img/dog.png" alt="Main image: Dog" class="main-image">
             </div>
         </div>
         <!-- /.container -->
     </main>
     <!-- /.main -->
 
-    <section class="video video-first">
-        <div class="container video-container video-container-first">
-            <div class="video-text video-text-first">
-                <h2 class="video-title video-title-first">As a veterinarian and <br> lover of animals.</h2>
-                <p class="video-description video-description-first">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words.</p>
-                <button class="video-button video-button-first">Our Service</button>
+    <section class="first-video">
+        <div class="container first-video-container">
+            <div class="first-video-text-block">
+                <h2 class="first-video-title">As a veterinarian and <br> lover of animals.</h2>
+                <p class="first-video-description">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words.</p>
+                <button class="first-video-button">Our Service</button>
             </div>
-            <div class="video-block video-block-first">
-                <img src="img/bg-video-first.jpg" alt="Background image for video" class="video-image video-image-first">
-                <img src="img/play-video.png" alt="Play video icon" class="play play-first">
+            <div class="first-video-video-block">
+                <img src="img/bg-video-first.jpg" alt="Background image for video" class="first-video-poster">
+                <a href="https://www.youtube.com/watch?v=d_KzeQ639b0&list=RDd_KzeQ639b0&start_radio=1" target="_blank" class="first-video-play">
+                    <img src="img/play-video.png" alt="Play video icon" >
+                </a>
             </div>
         </div>
         <!-- /.container -->
     </section>
     <!-- /.video -->
 
-    <section class="card card-first">
-        <div class="container card-container">
-            <h2 class="card-main-title">Title Here</h2>
-            <p class="card-description"> Lorem Ipsum available, but the majority have<br>suffered alteration in some form.</p>
-            <div class="card-block">
+    <section class="first-card">
+        <div class="container first-card-container">
+            <h2 class="first-card-title">Title Here</h2>
+            <p class="first-card-description"> Lorem Ipsum available, but the majority have<br>suffered alteration in some form.</p>
+            <div class="first-card-block">
                 <div class="card-item">
                     <img src="img/card/card-1.jpg" alt="Card: Image" class="card-image">
                     <div class="card-title">Veterinarian</div>
@@ -107,16 +109,18 @@
     </section>
     <!-- /.card card-first -->
 
-    <section class="video video-second">
-        <div class="container video-container video-container-second">
-            <div class="video-block video-block-second">
-                <img src="img/bg-video-second.jpg" alt="Background image for video" class="video-image video-image-second">
-                <img src="img/play-video.png" alt="Play video icon" class="play play-second">
+    <section class="second-video">
+        <div class="container second-video-container">
+            <div class="second-video-video-block">
+                <img src="img/bg-video-second.jpg" alt="Background image for video" class="second-video-poster">
+                <a href="https://www.youtube.com/watch?v=ifzshEIEysM&list=RDMMifzshEIEysM&start_radio=1" target="_blank" class="second-video-play">
+                    <img src="img/play-video.png" alt="Play video icon" >
+                </a>
             </div>
-            <div class="video-text video-text-second">
-                <h2 class="video-title video-title-second">As a veterinarian and<br>lover of animals</h2>
-                <p class="video-description video-description-second">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words</p>
-                <button class="video-button video-button-second">Our Service</button>
+            <div class="second-video-text-block">
+                <h2 class="second-video-title">As a veterinarian and<br>lover of animals</h2>
+                <p class="second-video-description">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words</p>
+                <button class="second-video-button">Our Service</button>
             </div> 
         </div>
         <!-- /.container -->

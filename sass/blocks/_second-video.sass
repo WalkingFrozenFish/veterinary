@@ -1,0 +1,61 @@
+.second-video
+    padding-top: 140px
+    padding-bottom: 170px
+    color: $mainColorText
+    .second-video-container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .second-video-text-block
+            .second-video-title
+                text-align: right
+                margin-bottom: 50px
+                font-size: 50px
+                font-weight: 600
+            .second-video-description
+                text-align: right
+                margin-bottom: 51px
+                font-size: 30px
+            .second-video-button
+                padding: 23px 29px
+                background-color: $mainOrange
+                border: 3px solid $mainOrange
+                color: $secondaryColorText
+                font-size: 20px
+                text-align: center
+                border-radius: 7px
+                margin-right: 35px
+                cursor: pointer
+                display: block
+                margin-left: auto
+                margin-right: 0
+        .second-video-video-block
+            width: 506px
+            position: relative
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-right: 65px
+            &::before
+                content: ""
+                width: 252px
+                height: 206px
+                background-color: $mainOrange
+                position: absolute
+                bottom: -33px
+                right: -39px
+                z-index: -10
+            &::after
+                content: ""
+                width: 100%
+                height: 100%
+                position: absolute
+                left: 0
+                top: 0
+                background-color: rgba(252, 194, 2, 0.349)
+            .second-video-poster
+            .second-video-play
+                position: absolute
+                z-index: 10
+                transform-origin: 50%
+                cursor: pointer
