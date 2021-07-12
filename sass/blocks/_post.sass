@@ -2,25 +2,38 @@
     padding-top: 140px
     padding-bottom: 140px
     color: $mainColorText
+    @media screen and ( max-width: 1199px )
+        padding: 120px 0
     .post-container
         .post-title
             font-size: 75px
             font-weight: bold
             text-align: center
             margin-bottom: 50px
+            margin-top: 0
+            @media screen and ( max-width: 1199px )
+                font-size: 55px
         .post-description
             font-size: 33px
             text-align: center
             margin-bottom: 100px
+            margin-top: 0
+            @media screen and ( max-width: 1199px )
+                font-size: 27px
         .post-block
             display: flex
             align-items: center
             justify-content: space-between
             .post-item
-                width: 360px
+                max-width: 360px
                 box-shadow: 0 10px 10px rgba(0, 0, 0, 0.315)
+                @media screen and ( max-width: 1199px )
+                    max-width: 330px
                 .item-image
                     margin-bottom: 32px
+                    width: 100%
+                    @media screen and ( max-width: 1199px )
+                        margin-bottom: 28px
                 .item-text-block
                     padding-left: 30px
                     padding-right: 30px
@@ -29,14 +42,18 @@
                         font-size: 25px
                         font-weight: 600
                         margin-bottom: 20px
+                        margin-top: 0
                     .item-date
                         font-size: 16px
                         color: $mainColorButton
                         margin-bottom: 29px
                         display: inline-block
+                        @media screen and ( max-width: 1199px )
+                            margin-bottom: 25px
                     .item-description
                         font-size: 16px
                         margin-bottom: 30px
+                        margin-top: 0
                     .item-read
                         font-size: 20px
                         font-weight: 700

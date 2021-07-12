@@ -11,9 +11,15 @@
                 margin-bottom: 50px
                 font-size: 50px
                 font-weight: 600
+                @media screen and ( max-width: 1199px )
+                    max-width: 570px
+                    font-size: 45px
             .first-video-description
                 margin-bottom: 51px
                 font-size: 30px
+                @media screen and ( max-width: 1199px )
+                    max-width: 570px
+                    font-size: 27px
             .first-video-button
                 padding: 23px 29px
                 background-color: $mainOrange
@@ -25,11 +31,13 @@
                 margin-right: 35px
                 cursor: pointer
         .first-video-video-block
-            width: 506px
+            max-width: 506px
             position: relative
             display: flex
             justify-content: center
             align-items: center
+            @media screen and ( max-width: 1199px )
+                max-width: 490px
             &::before
                 content: ""
                 width: 252px
@@ -48,6 +56,8 @@
                 top: 0
                 background-color: rgba(252, 194, 2, 0.349)
             .first-video-poster
+                @media screen and ( max-width: 1199px )
+                    width: 100%
             .first-video-play
                 position: absolute
                 z-index: 10

@@ -11,9 +11,14 @@
             .main-title
                 font-size: 66px
                 margin-bottom: 51px
+                @media screen and ( max-width: 1199px )
+                    font-size: 60px
+                    margin-bottom: 45px
             .main-description
                 font-size: 30px
                 margin-bottom: 51px
+                @media screen and ( max-width: 1199px )
+                    max-width: 750px
             .main-buttons
                 display: flex
                 align-items: center
@@ -37,9 +42,22 @@
                     border-radius: 7px
                     cursor: pointer
         .main-image-block
-            height: 604px
+            max-width: 405px
             .main-image
-                transform: scale(-1, 1);
-                height: 100%;
-                -webkit-filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.329));
-                filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.582));
+                max-width: 100%
+                transform: scale(-1, 1)
+                -webkit-filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.329))
+                filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.582))
+
+
+// /* Portrait tablets and small desktops */
+// @media (min-width: 768px) and (max-width: 991px)
+
+// /* Landscape phones and portrait tablets */
+// @media (max-width: 767px)
+
+// /* Portrait phones and smaller */
+// @media (max-width: 480px)
+
+// /* Iphone 5 */
+// @media (max-width: 320px)
