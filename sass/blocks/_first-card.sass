@@ -4,14 +4,22 @@
     background-color: $mainOrange
     color: $secondaryColorText
     text-align: center
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 90px 0
     .first-card-container
         .first-card-title
             font-size: 75px
             font-weight: bold
             margin-bottom: 50px
+            margin-top: 0
+            @media (min-width: 992px) and (max-width: 1199px)
+                font-size: 60px
+                margin-bottom: 40px
         .first-card-description
             font-size: 35px
             margin-bottom: 100px
+            @media (min-width: 992px) and (max-width: 1199px)
+                margin-bottom: 80px
         .first-card-block
             display: flex
             justify-content: space-between
@@ -20,9 +28,17 @@
                 .card-image
                     border: 6px solid $secondaryColorText
                     margin-bottom: 50px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        width: 280px
+                        margin-bottom: 35px
                 .card-title
                     font-weight: 600
                     font-size: 37px
                     margin-bottom: 25px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        font-size: 32px
+                        margin-bottom: 18px
                 .card-text
                     font-size: 25px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        font-size: 20px

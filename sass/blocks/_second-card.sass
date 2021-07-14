@@ -4,14 +4,22 @@
     background-color: $mainOrange
     color: $secondaryColorText
     text-align: center
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 90px 0
     .second-card-container
         .second-card-title
             font-size: 75px
             font-weight: bold
             margin-bottom: 50px
+            margin-top: 0
+            @media (min-width: 992px) and (max-width: 1199px)
+                font-size: 60px
+                margin-bottom: 40px
         .second-card-description
             font-size: 35px
             margin-bottom: 100px
+            @media (min-width: 992px) and (max-width: 1199px)
+                margin-bottom: 80px
         .second-card-block
             display: flex
             justify-content: space-between
@@ -20,6 +28,9 @@
                 .card-image
                     border: 6px solid $secondaryColorText
                     margin-bottom: 50px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        width: 280px
+                        margin-bottom: 35px
                 .card-price
                     width: 190px
                     display: flex
@@ -27,14 +38,20 @@
                     align-items: center
                     margin: auto
                     margin-bottom: 30px
+                    
                     .old-price
                         font-size: 42px
                         font-weight: 600
                         text-decoration: line-through
-
+                        @media (min-width: 992px) and (max-width: 1199px)
+                            font-size: 32px
+                            margin-bottom: 18px
                     .new-price
                         font-size: 42px
                         font-weight: 600
+                        @media (min-width: 992px) and (max-width: 1199px)
+                            font-size: 32px
+                            margin-bottom: 18px
                 .button-buy
                     padding: 17px 47px
                     background-color: $mainColorButton

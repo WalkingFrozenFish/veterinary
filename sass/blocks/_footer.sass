@@ -2,6 +2,8 @@
     padding-top: 170px
     padding-bottom: 190px
     background-color: $footerBG
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 140px 0
     .footer-container
         display: flex
         justify-content: space-between
@@ -11,6 +13,9 @@
                 font-size: 37px
                 margin-bottom: 40px
                 font-weight: 600
+                @media (min-width: 992px) and (max-width: 1199px)
+                    font-size: 33px
+                    margin-bottom: 30px
             .footer-list
                 display: flex
                 flex-direction: column
@@ -23,6 +28,8 @@
                         color: $secondaryColorText
                         text-decoration: none
                         font-size: 25px
+                        @media (min-width: 992px) and (max-width: 1199px)
+                            font-size: 22px
         .search-item
             .search-item-title
                 font-size: 37px
@@ -30,16 +37,23 @@
                 color: $secondaryColorText
                 margin-bottom: 20px
                 text-align: right
+                @media (min-width: 992px) and (max-width: 1199px)
+                    font-size: 33px
             .search-item-description
                 font-size: 25px
                 margin-bottom: 49px
                 color: $secondaryColorText
                 text-align: right
+                @media (min-width: 992px) and (max-width: 1199px)
+                    font-size: 22px
             .search-item-block
                 position: relative
                 height: 90px
                 width: 530px
                 margin-bottom: 50px
+                margin-left: auto
+                @media (min-width: 992px) and (max-width: 1199px)
+                    width: 400px
                 .search-item-field
                     background-color: $secondaryOrange
                     width: 100%
@@ -68,3 +82,5 @@
                     display: inline-block
                     text-decoration: none
                     .social-icon
+                        @media (min-width: 992px) and (max-width: 1199px)
+                            width: 30px

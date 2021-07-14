@@ -2,18 +2,28 @@
     padding-top: 140px
     padding-bottom: 170px
     color: $mainColorText
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 100px 0
     .first-video-container
         display: flex
         align-items: center
         justify-content: space-between
         .first-video-text-block
+            margin-right: 20px
             .first-video-title
                 margin-bottom: 50px
                 font-size: 50px
                 font-weight: 600
+                margin-top: 0
+                @media (min-width: 992px) and (max-width: 1199px)
+                    margin-bottom: 45px
+                    font-size: 40px
             .first-video-description
                 margin-bottom: 51px
                 font-size: 30px
+                @media (min-width: 992px) and (max-width: 1199px)
+                    margin-bottom: 45px
+                    font-size: 27px
             .first-video-button
                 padding: 23px 29px
                 background-color: $mainOrange
@@ -24,6 +34,8 @@
                 border-radius: 7px
                 margin-right: 35px
                 cursor: pointer
+                @media (min-width: 992px) and (max-width: 1199px)
+                    padding: 20px 26px
         .first-video-video-block
             width: 506px
             position: relative
@@ -48,6 +60,8 @@
                 top: 0
                 background-color: rgba(252, 194, 2, 0.349)
             .first-video-poster
+                @media (min-width: 992px) and (max-width: 1199px)
+                    width: 420px
             .first-video-play
                 position: absolute
                 z-index: 10

@@ -3,17 +3,29 @@
     padding-bottom: 87px
     background-color: $mainOrange
     color: $secondaryColorText
+    /* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 70px 0
+
     .main-container
         display: flex
         align-items: center
         justify-content: space-between
         .main-text-block
+            margin-right: 20px
             .main-title
                 font-size: 66px
                 margin-bottom: 51px
+                margin-top: 0
+                @media (min-width: 992px) and (max-width: 1199px)
+                    font-size: 56px
+                    margin-bottom: 45px
             .main-description
                 font-size: 30px
                 margin-bottom: 51px
+                margin-top: 0
+                @media (min-width: 992px) and (max-width: 1199px)
+                    font-size: 27px
             .main-buttons
                 display: flex
                 align-items: center
@@ -27,6 +39,8 @@
                     border-radius: 7px
                     margin-right: 35px
                     cursor: pointer
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        padding: 20px 26px
                 .main-button-secondary
                     padding: 23px 29px
                     background-color: transparent
@@ -36,10 +50,14 @@
                     text-align: center
                     border-radius: 7px
                     cursor: pointer
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        padding: 20px 26px
         .main-image-block
             height: 604px
+            @media (min-width: 992px) and (max-width: 1199px)
+                height: 530px
             .main-image
-                transform: scale(-1, 1);
-                height: 100%;
-                -webkit-filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.329));
-                filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.582));
+                transform: scale(-1, 1)
+                height: 100%
+                -webkit-filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.329))
+                filter: drop-shadow(4px 4px 14px rgba(59, 59, 59, 0.582))

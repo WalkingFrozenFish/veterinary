@@ -2,20 +2,30 @@
     padding-top: 140px
     padding-bottom: 170px
     color: $mainColorText
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 100px 0
     .second-video-container
         display: flex
         align-items: center
         justify-content: space-between
         .second-video-text-block
+            margin-left: 20px
             .second-video-title
                 text-align: right
                 margin-bottom: 50px
                 font-size: 50px
                 font-weight: 600
+                margin-top: 0
+                @media (min-width: 992px) and (max-width: 1199px)
+                    margin-bottom: 45px
+                    font-size: 40px
             .second-video-description
                 text-align: right
                 margin-bottom: 51px
                 font-size: 30px
+                @media (min-width: 992px) and (max-width: 1199px)
+                    margin-bottom: 45px
+                    font-size: 27px
             .second-video-button
                 padding: 23px 29px
                 background-color: $mainOrange
@@ -29,6 +39,8 @@
                 display: block
                 margin-left: auto
                 margin-right: 0
+                @media (min-width: 992px) and (max-width: 1199px)
+                    padding: 20px 26px
         .second-video-video-block
             width: 506px
             position: relative
@@ -54,6 +66,8 @@
                 top: 0
                 background-color: rgba(252, 194, 2, 0.349)
             .second-video-poster
+                @media (min-width: 992px) and (max-width: 1199px)
+                    width: 420px
             .second-video-play
                 position: absolute
                 z-index: 10

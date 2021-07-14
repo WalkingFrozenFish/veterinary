@@ -19,5 +19,23 @@ body
     padding: 0
 
 .container
-    width: 1160px
+    max-width: 1160px
     margin: auto
+    /* Large desktops and laptops */
+    @media (min-width: 1200px)
+        max-width: 1100px
+    /* Landscape tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px)
+        max-width: 90%
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px)
+        max-width: 90%
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px)
+        max-width: 90%
+    /* Portrait phones and smaller */
+    @media (max-width: 480px)
+        max-width: 90%
+    /* Iphone 5 */
+    @media (max-width: 320px)
+        max-width: 90%

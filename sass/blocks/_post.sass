@@ -2,16 +2,25 @@
     padding-top: 140px
     padding-bottom: 140px
     color: $mainColorText
+    @media (min-width: 992px) and (max-width: 1199px)
+        padding: 110px 0
     .post-container
         .post-title
             font-size: 75px
             font-weight: bold
             text-align: center
             margin-bottom: 50px
+            margin-top: 0
+            @media (min-width: 992px) and (max-width: 1199px)
+                font-size: 60px
         .post-description
             font-size: 33px
             text-align: center
             margin-bottom: 100px
+            margin-top: 0
+            @media (min-width: 992px) and (max-width: 1199px)
+                font-size: 27px
+                margin-bottom: 80px
         .post-block
             display: flex
             align-items: center
@@ -19,8 +28,13 @@
             .post-item
                 width: 360px
                 box-shadow: 0 10px 10px rgba(0, 0, 0, 0.315)
+                @media (min-width: 992px) and (max-width: 1199px)
+                    width: 280px
                 .item-image
                     margin-bottom: 32px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        width: 280px
+                        margin-bottom: 28px
                 .item-text-block
                     padding-left: 30px
                     padding-right: 30px
@@ -29,6 +43,7 @@
                         font-size: 25px
                         font-weight: 600
                         margin-bottom: 20px
+                        margin-top: 0
                     .item-date
                         font-size: 16px
                         color: $mainColorButton
@@ -37,6 +52,7 @@
                     .item-description
                         font-size: 16px
                         margin-bottom: 30px
+                        margin-top: 0
                     .item-read
                         font-size: 20px
                         font-weight: 700

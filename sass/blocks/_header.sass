@@ -8,6 +8,8 @@
         align-items: center
         .logo
             width: 200px
+            @media (min-width: 992px) and (max-width: 1199px)
+                width: 150px
             .logo-image
                 width: 100%
         .navbar
@@ -19,18 +21,25 @@
                 .list-item
                     margin-left: 20px
                     margin-right: 20px
+                    @media (min-width: 992px) and (max-width: 1199px)
+                        margin-left: 10px
+                        margin-right: 10px
                     .item-link
                         color: $secondaryColorText
                         text-decoration: none
                         font-weight: medium
                         font-size: 30px
+                        @media (min-width: 992px) and (max-width: 1199px)
+                            font-size: 20px
         .search-block
             width: 274px
             height: 51px
             position: relative
-            box-shadow: 4px 4px 14px rgba(59, 59, 59, 0.329);  
+            box-shadow: 4px 4px 14px rgba(59, 59, 59, 0.329)
+            @media (min-width: 992px) and (max-width: 1199px)
+                width: 200px
             .search-field
-                width: 274px 
+                width: 100% 
                 height: 100%
                 border: none
                 padding-left: 20px
