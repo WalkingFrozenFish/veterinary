@@ -1,0 +1,12 @@
+# folder_1/*.txt
+
+# folder_1/*[0-9].txt
+# folder_1/image*
+
+# folder_[0, 2]/
+# folder_[0, 2]/*.png
+# folder_[0, 2]/*
+
+
+folder_1/*[0-2].txt
+veterinary.psd
